@@ -130,6 +130,48 @@ main > section{
     font-weight: 500px;
 }
 
+/* feature section */
+
+.feature{
+    gap: 140px;
+}
+
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-card{
+   padding: 30px;
+   border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+   
+}
+#exprience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#exprience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.feature-arch img{
+    width: 100%;
+}
+
 /* facts er card */
 
 .facts-container{
@@ -190,7 +232,7 @@ main > section{
         flex-direction: column;
     }
 
-    .teams-img-container , .facts-container , .sponsor-company{
+    .teams-img-container , .facts-container , .sponsor-company , .feature{
         grid-template-columns: repeat(1,1fr);
     }
     
@@ -198,7 +240,10 @@ main > section{
         justify-items: center;
         gap: 24px;
     }
-     
+     #exprience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+     }
      .sponsor-company{
         justify-items: center;
         gap: 50px;
@@ -212,7 +257,7 @@ main > section{
 /* responsive media query  for mediam divece */
 
 @media screen and (min-width:576px) and(max-width:992){
-    .teams{
+    .teams , .feature{
         flex-direction: column;
     }
 
@@ -225,4 +270,9 @@ main > section{
         gap: 50px;
         justify-items: center;
     }
+   
+    #exprience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+     }
 }
