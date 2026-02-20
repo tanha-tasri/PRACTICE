@@ -224,6 +224,25 @@ main > section{
 .sponsor-company img{
     filter: grayscale(100%);
 }
+/* footer section */
+
+footer{
+    /* max-width: 1440;
+    height: 100; */
+    padding: 130px 216px 240px;
+}
+.footer-des{
+    font-size: 1.25rem;
+    padding: 40px 410px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    color: #424242;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
 
 /* responsive media query  for small divece*/
 
